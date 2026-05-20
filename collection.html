@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections | Shop</title>
+       <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<div class="logo">
+            <h1>GOUF</h1>
+            <h1>REPUBLIC</h1>
+        </div>
+<body>
+    <header>
+         <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="store.html">STORE</a></li>
+                <li><a href="collection.html">COLLECTION</a></li>
+                <li><a href="lookbook.html">LOOKBOOK</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="shop.html">SHOP</a></li>
+                <li><a href="feedback.html">FEEDBACK</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Our Collections</h1>
+        <p>Discover our latest collections, featuring a curated selection of stylish and affordable outfits that embody urban swagger.</p> 
+
+        <aside class="filters">
+            <h2>Filter By</h2>
+            <form>
+                <fieldset>
+                    <legend>Price Range</legend>
+
+                    <div class="price-range-header">
+                        <span id="price-min">$0</span>
+                        <span id="price-max">$200</span>
+                    </div>
+
+                    <div class="double-range">
+                        <div class="double-range__track" aria-hidden="true"></div>
+                        <input id="priceRangeMin" type="range" name="price_min" min="0" max="200" value="0" step="5" />
+                        <input id="priceRangeMax" type="range" name="price_max" min="0" max="200" value="200" step="5" />
+                    </div>
+
+                    <legend>Size</legend>
+                    <div class="size-range-header">
+                        <span id="size-min">SMALL</span>
+                        <span id="size-max">LARGE</span>
+                    </div>
+
+                    <div class="double-range">
+                        <div class="double-range__track" aria-hidden="true"></div>
+                        <input id="sizeRangeMin" type="range" name="size_min" min="SMALL" max="LARGE" value="SMALL" step="5" />
+                        <input id="sizeRangeMax" type="range" name="size_max" min="SMALL" max="LARGE" value="LARGE" step="5" />
+                    </div>
+                      </fieldset>
+
+                <button type="submit">Apply Filters</button>
+            </form>
+        </aside>
+
+        <script src="collection-filter.js"></script>
+
+        <h3>Shoes</h3>
+        <section class="product-grid collections-grid">
+            <article class="product-card card" data-price="35" data-size="SMALL">
+                    <div class="img-container">
+                        <img src="shoes.jpeg" alt="Shoes 1">
+                    </div>
+                <h3>accesories</h3>
+                <p>$35.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="45" data-size="SMALL">
+                <div class="img-container">
+                    <img src="shoes (2).jpeg" alt="Shoes 2">
+                </div>
+                <h3>accesories</h3>
+                <p>$45.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="55" data-size="SMALL">
+                <div class="img-container">
+                    <img src="shoes (3).jpeg" alt="Shoes 3">
+                </div>
+                <h3>accesories</h3>
+                <p>$55.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="25" data-size="SMALL">
+                <div class="img-container">
+                    <img src="shoes (4).jpeg" alt="Shoes 4">
+                </div>
+                <h3>accesories</h3>
+                <p>$25.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="75" data-size="SMALL">
+                <div class="img-container">
+                    <img src="shoes (5).jpeg" alt="Shoes 5">
+                </div>
+                <h3>accesories</h3>
+                <p>$75.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="65" data-size="SMALL">
+                <div class="img-container">
+                    <img src="shoes (6).jpeg" alt="Shoes 6">
+                </div>
+                <h3>accesories</h3>
+                <p>$65.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="95" data-size="SMALL">
+                <div class="img-container">
+                    <img src="shoes (7).jpeg" alt="Shoes 7">
+                </div>
+                <h3>accesories</h3>
+                <p>$95.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+                <h3>Shoes</h3>
+                
+            </article>
+        </section>
+
+        <h3>Chains</h3>
+        <section class="product-grid collections-grid">
+
+            <article class="product-card card" data-price="20" data-size="SMALL">
+                <div class="img-container">
+                    <img src="chain1 (1).jpeg" alt="Chain 1">
+                </div>
+                <h3>accesories</h3>
+                <p>$20.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="30" data-size="SMALL">
+                <div class="img-container">
+                    <img src="chain2.jpeg" alt="Chain 2">
+                </div>
+                <h3>accesories</h3>
+                <p>$30.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="40" data-size="SMALL">
+                <div class="img-container">
+                    <img src="chain3.jpeg" alt="Chain 3">
+                </div>
+                <h3>accesories</h3>
+                <p>$40.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="55" data-size="SMALL">
+                <div class="img-container">
+                    <img src="chain4.jpeg" alt="Chain 4">
+                </div>
+                <h3>accesories</h3>
+                <p>$55.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="65" data-size="SMALL">
+                <div class="img-container">
+                    <img src="chain (4).jpeg" alt="Chain 5">
+                </div>
+                <h3>accesories</h3>
+                <p>$65.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="75" data-size="SMALL">
+                <div class="img-container">
+                    <img src="chain.jpeg" alt="Chain 6">
+                </div>
+                <h3>accesories</h3>
+                <p>$75.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+        </section>
+
+        <h3>Glasses</h3>
+        <section class="product-grid collections-grid">
+            <article class="product-card card" data-price="25" data-size="SMALL">
+                <div class="img-container">
+                    <img src="glasses.jpeg" alt="Glasses 1">
+                </div>
+                <h3>accesories</h3>
+                <p>$25.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="35" data-size="SMALL">
+                <div class="img-container">
+                    <img src="glasses (2).jpeg" alt="Glasses 2">
+                </div>
+                <h3>accesories</h3>
+                <p>$35.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="45" data-size="SMALL">
+                <div class="img-container">
+                    <img src="glasses (3).jpeg" alt="Glasses 3">
+                </div>
+                <h3>accesories</h3>
+                <p>$45.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="55" data-size="SMALL">
+                <div class="img-container">
+                    <img src="glasses (4).jpeg" alt="Glasses 4">
+                </div>
+                <h3>accesories</h3>
+                <p>$55.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="65" data-size="SMALL">
+                <div class="img-container">
+                    <img src="glasses (5).jpeg" alt="Glasses 5">
+                </div>
+                <h3>accesories</h3>
+                <p>$65.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="75" data-size="SMALL">
+                <div class="img-container">
+                    <img src="glasses (6).jpeg" alt="Glasses 6">
+                </div>
+                <h3>accesories</h3>
+                <p>$75.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="85" data-size="SMALL">
+                <div class="img-container">
+                    <img src="glasses (7).jpeg" alt="Glasses 7">
+                </div>
+                <h3>accesories</h3>
+                <p>$85.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="95" data-size="SMALL">
+                <div class="img-container">
+                    <img src="glasses (8).jpeg" alt="Glasses 8">
+                </div>
+                <h3>accesories</h3>
+                <p>$95.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+        </section>
+
+        <h4>Clothes</h4>
+        <section class="product-grid collections-grid">
+            <article class="product-card card" data-price="25" data-size="SMALL">
+                <div class="img-container">
+                    <img src="clothes.jpeg" alt="Clothes 1">
+                </div>
+                <h3>clothes</h3>
+                <p>$25.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="35" data-size="SMALL">
+                <div class="img-container">
+                    <img src="clothes1.jpeg" alt="Clothes 2">
+                </div>
+                <h3>clothes</h3>
+                <p>$35.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="45" data-size="SMALL">
+                <div class="img-container">
+                    <img src="clothes (2).jpeg" alt="Clothes 3">
+                </div>
+                <h3>clothes</h3>
+                <p>$45.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="55" data-size="SMALL">
+                <div class="img-container">
+                    <img src="clothes (3).jpeg" alt="Clothes 4">
+                </div>
+                <h3>clothes</h3>
+                <p>$55.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="65" data-size="SMALL">
+                <div class="img-container">
+                    <img src="clothes (4).jpeg" alt="Clothes 5">
+                </div>
+                <h3>clothes</h3>
+                <p>$65.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="75" data-size="SMALL">
+                <div class="img-container">
+                    <img src="clothes (5).jpeg" alt="Clothes 6">
+                </div>
+                <h3>clothes</h3>
+                <p>$75.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="85" data-size="SMALL">
+                <div class="img-container">
+                    <img src="clothes (6).jpeg" alt="Clothes 7">
+                </div>
+                <h3>clothes</h3>
+                <p>$85.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="95" data-size="SMALL">
+                <div class="img-container">
+                    <img src="clothes (7).jpeg" alt="Clothes 8">
+                </div>
+                <h3>clothes</h3>
+                <p>$95.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="105" data-size="SMALL">
+                <div class="img-container">
+                    <img src="clothes (8).jpeg" alt="Clothes 9">
+                </div>
+                <h3>clothes</h3>
+                <p>$105.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="115" data-size="SMALL">
+                <div class="img-container">
+                    <img src="clothes (9).jpeg" alt="Clothes 10">
+                </div>
+                <h3>clothes</h3>
+                <p>$115.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="125" data-size="SMALL">
+                <div class="img-container">
+                    <img src="clothes (10).jpeg" alt="Clothes 11">
+                </div>
+                <h3>clothes</h3>
+                <p>$125.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="135" data-size="SMALL">
+                <div class="img-container">
+                    <img src="clothes (11).jpeg" alt="Clothes 12">
+                </div>
+                <h3>clothes</h3>
+                <p>$135.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="145" data-size="SMALL">
+                <div class="img-container">
+                    <img src="clothes (12).jpeg" alt="Clothes 13">
+                </div>
+                <h3>clothes</h3>
+                <p>$145.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="155" data-size="SMALL">
+                <div class="img-container">
+                    <img src="clothes (13).jpeg" alt="Clothes 14">
+                </div>
+                <h3>clothes</h3>
+                <p>$155.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="165" data-size="SMALL">
+                <div class="img-container">
+                    <img src="clothes (14).jpeg" alt="Clothes 15">
+                </div>
+                <h3>clothes</h3>
+                <p>$165.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="175" data-size="SMALL">
+                <div class="img-container">
+                    <img src="clothes (15).jpeg" alt="Clothes 16">
+                </div>
+                <h3>clothes</h3>
+                <p>$175.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="185" data-size="SMALL">
+                <div class="img-container">
+                    <img src="clothes (16).jpeg" alt="Clothes 17">
+                </div>
+                <h3>clothes</h3>
+                <p>$185.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="195" data-size="SMALL">
+                <div class="img-container">
+                    <img src="clothes (17).jpeg" alt="Clothes 18">
+                </div>
+                <h3>clothes</h3>
+                <p>$195.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="200" data-size="SMALL">
+                <div class="img-container">
+                    <img src="clothes (18).jpeg" alt="Clothes 19">
+                </div>
+                <h3>clothes</h3>
+                <p>$200.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="200" data-size="SMALL">
+                <div class="img-container">
+                    <img src="clothes (19).jpeg" alt="Clothes 20">
+                </div>
+                <h3>clothes</h3>
+                <p>$200.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="200" data-size="SMALL">
+                <div class="img-container">
+                    <img src="clothes (20).jpeg" alt="Clothes 21">
+                </div>
+                <h3>clothes</h3>
+                <p>$200.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <!-- Extra high-price items starting with suits and outfits (for filtering variety) -->
+            <article class="product-card card" data-price="150" data-size="SMALL">
+                <div class="img-container">
+                    <img src="suit.jpeg" alt="Suit 1">
+                </div>
+                <h3>clothes</h3>
+                <p>$150.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="160" data-size="SMALL">
+                <div class="img-container">
+                    <img src="suit (2).jpeg" alt="Suit 2">
+                </div>
+                <h3>clothes</h3>
+                <p>$160.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="170" data-size="SMALL">
+                <div class="img-container">
+                    <img src="suit (3).jpeg" alt="Suit 3">
+                </div>
+                <h3>clothes</h3>
+                <p>$170.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="180" data-size="SMALL">
+                <div class="img-container">
+                    <img src="outfit1.jpg" alt="Outfit 1">
+                </div>
+                <h3>clothes</h3>
+                <p>$180.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="190" data-size="SMALL">
+                <div class="img-container">
+                    <img src="outfit2.jpg" alt="Outfit 2">
+                </div>
+                <h3>clothes</h3>
+                <p>$190.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+            <article class="product-card card" data-price="200" data-size="SMALL">
+                <div class="img-container">
+                    <img src="outfit3.jpg" alt="Outfit 3">
+                </div>
+                <h3>clothes</h3>
+                <p>$200.00</p>
+                <a href="shop.html" class="btn">Add to cart</a>
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 GOUF REPUBLIC. All rights reserved.</p>
+         <p>Tafadzwa-Zynne@github.com</p>
+        <p>goufrepublic@gmail.com</p>
+    </footer>
+</body>
+</html>
