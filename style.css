@@ -137,7 +137,7 @@ background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7), rgba(0,0,0,0
     overflow: hidden;
     height: 360px;
 
-    /* ensures cards/grid align neatly */
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -187,7 +187,7 @@ main {
     flex: 1 0 auto;
 }
 
-/* Contact page layout */
+
 .contact-info {
     text-align: center;
     width: 100%;
@@ -237,7 +237,7 @@ main {
     border-color: rgba(204, 153, 51, 0.7);
 }
 
-/* Cart layout (shop.html) overrides main at desktop */
+
 
 
 .store-carousel {
@@ -252,7 +252,7 @@ main {
 
 .store-carousel__track {
     display: flex;
-    /* 11 slides => 1100% width */
+    
     width: 1100%;
     animation: storeSlide 55s infinite;
 }
@@ -260,7 +260,7 @@ main {
 
 .store-carousel__img {
     width: 100%;
-    /* 11 images => each takes 1/11 of the viewport */
+    
     flex: 0 0 9.0909%;
     height: 360px;
     object-fit: contain;
@@ -271,7 +271,7 @@ main {
 
 
 @keyframes storeSlide {
-    /* Each slide gets an equal time slice: 100 / 11 = 9.090909...% */
+    
     0%, 8.18% { transform: translateX(0%); }
     9.09%, 17.27% { transform: translateX(-9.0909%); }
     18.18%, 26.36% { transform: translateX(-18.1818%); }
@@ -430,7 +430,7 @@ nav ul li a:hover {
 
 
 
-/* Collections filter (horizontal double range slider) */
+
 .filters {
     margin: 20px;
     padding: 20px;
@@ -481,7 +481,7 @@ nav ul li a:hover {
     background: rgba(204, 153, 51, 0.15);
 }
 
-/* Stack both range inputs exactly on top of each other for a neat horizontal double-slider */
+
 .double-range input[type="range"] {
     position: absolute;
     left: 0;
