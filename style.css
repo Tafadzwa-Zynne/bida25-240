@@ -14,8 +14,6 @@ body {
     flex-direction: column;
 }
 
-
-
 header {
     padding: 40px 20px;
     background-color: #000000;
@@ -33,13 +31,6 @@ nav {
     padding-bottom: 20px;
     background-color: #2b2b2b;
 }
-
-
-
-
-
-
-
 
 .logo {
     text-align: left;
@@ -115,7 +106,6 @@ background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7), rgba(0,0,0,0
     opacity: 0.8;
 }
 
-
 .product-grid {
     display: flex;
     justify-content: space-around;
@@ -136,13 +126,11 @@ background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7), rgba(0,0,0,0
     border-radius: 10px;
     overflow: hidden;
     height: 360px;
-
-    
+ 
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 
 .img-container img {
     width: 100%;
@@ -237,9 +225,6 @@ main {
     border-color: rgba(204, 153, 51, 0.7);
 }
 
-
-
-
 .store-carousel {
     margin: 10px 20px 30px;
 }
@@ -267,9 +252,6 @@ main {
     background: #0d0d0d;
 }
 
-
-
-
 @keyframes storeSlide {
     
     0%, 8.18% { transform: translateX(0%); }
@@ -285,13 +267,6 @@ main {
     90.91%, 99.09% { transform: translateX(-90.9090%); }
     100% { transform: translateX(-90.9090%); }
 }
-
-
-
-
-
-
-
 
 nav ul li a {
     text-decoration: none;
@@ -349,9 +324,6 @@ nav ul li a:hover {
   text-align: center;
 }
 
-
-
-
 .founder-image {
   width: 260px;
   flex-shrink: 0;
@@ -371,9 +343,6 @@ nav ul li a:hover {
   text-align: center;
 }
 
-
-
-
 .founder-image {
   width: 260px;
 
@@ -386,8 +355,6 @@ nav ul li a:hover {
   border: 2px solid rgba(204, 153, 51, 0.35);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
 }
-
-
 
 .founder-image img {
   width: 100%;
@@ -421,16 +388,6 @@ nav ul li a:hover {
   text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
 .filters {
     margin: 20px;
     padding: 20px;
@@ -438,7 +395,6 @@ nav ul li a:hover {
     border-radius: 14px;
     background: rgba(43, 43, 43, 0.45);
 }
-
 
 .filters fieldset {
     border: none;
@@ -466,10 +422,6 @@ nav ul li a:hover {
     padding: 2px 0;
 }
 
-
-
-
-
 .double-range__track {
     position: absolute;
     left: 0;
@@ -480,7 +432,6 @@ nav ul li a:hover {
     border-radius: 999px;
     background: rgba(204, 153, 51, 0.15);
 }
-
 
 .double-range input[type="range"] {
     position: absolute;
